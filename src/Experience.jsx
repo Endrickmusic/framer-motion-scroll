@@ -6,8 +6,7 @@ export default function Experience(){
   const normalMap = useTexture('./textures/waternormals.jpeg')
 
   return (
-    <>
-      <OrbitControls />       
+    <>     
         <mesh
         rotation={[Math.PI/4, Math.PI/4, Math.PI/2]}
         position={[0, 0, 0]}
